@@ -22,9 +22,9 @@ function App() {
             exact
             path="/"
             render={() => (
-              <section>
-                <h2>Welcome to the Redux Essentials example app!</h2>
-              </section>
+              <React.Fragment>
+                <PostsList />
+              </React.Fragment>
             )}
           />
           <Redirect to="/" />
