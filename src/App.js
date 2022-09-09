@@ -6,7 +6,11 @@ import {
   Redirect,
 } from 'react-router-dom'
 
+// components
 import { Navbar } from './app/Navbar'
+
+// features
+import {PostsList} from './features/posts/PostsList.js'
 
 function App() {
   return (
