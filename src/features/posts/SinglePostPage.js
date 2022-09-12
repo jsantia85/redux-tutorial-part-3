@@ -18,7 +18,12 @@ export const SinglePostPage = ({match}) => {
 
   return (
     <>
-    
+      <section>
+        <article className='post'>
+          <h2>{post.title}</h2>
+          <p className='post-content'>{post.content}</p>
+        </article>
+      </section>
     </>
   )
 }
